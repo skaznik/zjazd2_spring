@@ -11,7 +11,7 @@ public class ViewResolverConfiguration {
     @Bean
     public ViewResolver viewResolver() {
         InternalResourceViewResolver viewResolver = new InternalResourceViewResolver();
-        // dodajemy prefix
+        // dodajemy prefix, żeby ścieżka była root
         viewResolver.setPrefix("/");
         //dodajemy suffix (w tym wypadku rozszerzenie obrazka);
         viewResolver.setSuffix(".jpg");
