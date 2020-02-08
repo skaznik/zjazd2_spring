@@ -10,7 +10,8 @@ public class TestController {
     //@ResponseBody
     @GetMapping("/test")
     public  String test() {
-        return "test-app";
+        //return "test-app";
+        return "kot";
     }
 
 @ResponseBody
