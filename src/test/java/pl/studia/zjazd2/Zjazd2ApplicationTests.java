@@ -1,0 +1,13 @@
+package pl.studia.zjazd2;
+
+import org.junit.jupiter.api.Test;
+import org.springframework.boot.test.context.SpringBootTest;
+
+@SpringBootTest
+class Zjazd2ApplicationTests {
+
+	@Test
+	void contextLoads() {
+	}
+
+}
